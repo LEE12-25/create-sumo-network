@@ -1,5 +1,4 @@
 newton_v0.3.0/csv2xml.py: 경계 부분 유실 문제 반영
-newton_v0.3.0/csv2xml_new.py: 함수화 미완
 
 v.3.0
 1. shp2csv.py: 전국 도로망 데이터를 shp에서 csv로 백업

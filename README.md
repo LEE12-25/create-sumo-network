@@ -1,13 +1,9 @@
 # create-sumo-network
 행정코드 입력 시 해당 네트워크 데이터 전처리 및 차량 시뮬레이션 실행 모듈
 
-
-
-# newton_v0.3.0/csv2xml.py: 경계 부분 유실 문제 반영
-
 v.3.0
-1. shp2csv.py: 전국 도로망 데이터를 shp에서 csv로 백업
-2. csv2xml.py: 전국 도로망 데이터 csv의 지역을 지정하고 전처리 및 가공하여 sumo에 입력할 xml 파일을 작성 및 저장
+### 1. shp2csv.py: 전국 도로망 데이터를 shp에서 csv로 백업
+### 2. csv2xml.py: 전국 도로망 데이터 csv의 지역을 지정하고 전처리 및 가공하여 sumo에 입력할 xml 파일을 작성 및 저장
 
 <사전작업>
 

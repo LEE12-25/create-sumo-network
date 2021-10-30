@@ -2,8 +2,8 @@
 행정코드 입력 시 해당 네트워크 데이터 전처리 및 차량 시뮬레이션 실행 모듈
 
 v.3.0
-### 1. shp2csv.py: 전국 도로망 데이터를 shp에서 csv로 백업
-### 2. csv2xml.py: 전국 도로망 데이터 csv의 지역을 지정하고 전처리 및 가공하여 sumo에 입력할 xml 파일을 작성 및 저장
+#### 1. shp2csv.py: 전국 도로망 데이터를 shp에서 csv로 백업
+#### 2. csv2xml.py: 전국 도로망 데이터 csv의 지역을 지정하고 전처리 및 가공하여 sumo에 입력할 xml 파일을 작성 및 저장
 
 <사전작업>
 
@@ -46,7 +46,7 @@ v.3.0
 ```
 2. 네트워크 파일 생성 및 sumo 실행: 
 ```
-	5) cd C:\Users\Desktop\newton_v0.3.0\data\xml
-	6) netconvert -n exp.nod.xml -e exp.edg.xml -x exp.con.xml -t exp.typ.xml -o exp.net.xml
-	7) sumo-gui -n exp.net.xml
+5) cd C:\Users\Desktop\newton_v0.3.0\data\xml
+6) netconvert -n exp.nod.xml -e exp.edg.xml -x exp.con.xml -t exp.typ.xml -o exp.net.xml
+7) sumo-gui -n exp.net.xml
 ```
